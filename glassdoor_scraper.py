@@ -2,7 +2,7 @@ from selenium.common.exceptions import NoSuchElementException, ElementClickInter
 from selenium import webdriver
 import time
 import pandas as pd
-
+from selenium.webdriver.common.by import By
 
 def get_jobs(keyword, num_jobs, verbose):
     
